@@ -1,0 +1,89 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"_addr","type":"address"},
+				{"name":"_hp","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "death",
+			"inputs": [
+				{"name":"_addr","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "dealDmg",
+			"inputs": [
+				{"name":"_addr","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getDmg",
+			"inputs": [
+				{"name":"dmg","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "hp",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"hp","type":"uint256"}
+			]
+		},
+		{
+			"name": "set",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"set","type":"map(uint256,uint256)"}
+			]
+		},
+		{
+			"name": "townHallAddress",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"townHallAddress","type":"address"}
+			]
+		},
+		{
+			"name": "dmg",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"dmg","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+		{"key":1,"name":"num","type":"uint256"},
+		{"key":2,"name":"addres","type":"address"}
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"num","type":"uint256"},
+		{"name":"addres","type":"address"},
+		{"name":"hp","type":"uint256"},
+		{"name":"set","type":"map(uint256,uint256)"},
+		{"name":"townHallAddress","type":"address"},
+		{"name":"dmg","type":"uint256"}
+	]
+}
